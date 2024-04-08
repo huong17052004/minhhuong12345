@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-10-01" view-index="0" gantt-divider-location="505" resource-divider-location="300" version="3.3.3300" locale="vi_VN">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Tên" width="279" order="0"/>
+        <field id="tpd4" name="Ngày bắt đầu" width="105" order="1"/>
+        <field id="tpd5" name="Ngày kết thúc" width="105" order="2"/>
+        <field id="tpd15" name="Chú ý" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Tên" width="210" order="0"/>
+        <field id="1" name="Vai trò mặc định" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="69018795c9be4c9f86cabc0c07a345ce" name="Project Initiation" meeting="false" start="2024-04-05" duration="12" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+            <task id="2" uid="a78f490640fa45a5a61951d633be687c" name="Define project scope and objectives" meeting="false" start="2024-04-05" duration="2" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="3" uid="0a4262d4762c47c18217eeda69fec0b6" name="Identify stakeholders and their roles" meeting="false" start="2024-04-09" duration="2" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="4" uid="338a4f33f5634bf19845ec6354ec086c" name="Form the project team" meeting="false" start="2024-04-11" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="5" uid="c9c610200c5744ab8d4f945ff2aa72ff" name="Create the project charter" meeting="false" start="2024-04-18" duration="2" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="6" uid="4864204325984e109ec2839648a86a3a" name="Organize a kickoff meeting" meeting="false" start="2024-04-22" duration="1" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="12" uid="9f14f428a9f346848607df915863bcae" name="Requirements Gatherin" meeting="false" start="2024-04-23" duration="25" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+            <task id="8" uid="c7b2ea2e5b624d2f81e561a9231f1b02" name="Gather requirements from stakeholders" meeting="false" start="2024-04-23" duration="10" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="9" uid="90e9f38b08a94465a5c0a195f9a1ce4f" name="Assess current infrastructure and applications" meeting="false" start="2024-05-07" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="10" uid="7dd5a4aa97de48c2bd6bfce5092dbb5b" name="Determine performance and security requirements" meeting="false" start="2024-05-14" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="11" uid="95c0844b5f364b0e9aac65264ab64c71" name="Collect feedback from end-users and stakeholders" meeting="false" start="2024-05-21" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="15" uid="7a96bd10688243d9aac772c0dbe417b7" name="Service Provider Selection" meeting="false" start="2024-05-28" duration="19" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+            <task id="17" uid="1d4829ee3d47477da5fa4f3fe36dc1b4" name="Research and evaluate potential service providers" meeting="false" start="2024-05-28" duration="4" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="18" uid="de01b40fd3bc4bf4a5351fe3d2401259" name="Shortlist suitable providers" meeting="false" start="2024-06-03" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="19" uid="0e4ecacef22a4afcaae826d16a0e165f" name="Conduct detailed assessments and discussions with shortlisted providers" meeting="false" start="2024-06-10" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="20" uid="47007f10f95d47639f3401a2abfcead7" name="Select the final provider(s) and finalize contracts" meeting="false" start="2024-06-17" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="23" uid="5766f2c0fe4d4361ada9490fba53f8fb" name="Data Collection and Analysis" meeting="false" start="2024-06-24" duration="15" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+            <task id="25" uid="c18421b3d91742e6918d94abba2d072d" name="Implement data collection mechanisms" meeting="false" start="2024-06-24" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="24" uid="40f18f748dfa4813ae29379a0d87dc37" name="Analyze collected data to identify areas for improvement" meeting="false" start="2024-07-01" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="26" uid="f967e2eb045048568d37953b99ed9ba0" name="Evaluate the environmental impact of the project" meeting="false" start="2024-07-08" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="28" uid="7bc8b80601fe46e586aea4e37e810d0a" name="Technology and Infrastructure Optimization" meeting="false" start="2024-07-15" duration="40" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+            <task id="30" uid="68a22feffa4a4d1badaa54054b8ac3e7" name="Integrate renewable energy sources" meeting="false" start="2024-07-15" duration="10" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="29" uid="92287077b07844c08e148f85c0cd5cfe" name="Upgrade IT infrastructure for sustainability" meeting="false" start="2024-07-29" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="32" uid="8be50c362c3842f4a371f11f6765bbe0" name="Implement IoT devices for energy monitoring and management:" meeting="false" start="2024-08-05" duration="10" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="31" uid="ba6a7529ba6d484f88226fb240dd765a" name="Utilize AI algorithms for energy optimization" meeting="false" start="2024-08-19" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="27" uid="57109dd7dbd842c1ab616ab2b6460f7d" name="Deploy energy-efficient measures in data centers" meeting="false" start="2024-08-26" duration="10" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="33" uid="94016253ad0143de94e82085edac7584" name="Sustainable Product Development" meeting="false" start="2024-09-09" duration="9" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+            <task id="34" uid="c1cbfc99bc774a688b0fbb9e6929b1d9" name="Research sustainable materials" meeting="false" start="2024-09-09" duration="3" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="36" uid="40e94b6a6e9041889865cbf5a0978948" name="Redesign products to reduce environmental impact" meeting="false" start="2024-09-11" duration="3" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="38" uid="b3e2f54e58784f7f9950c788c64504da" name="Develop environmentally-friendly packaging solutions" meeting="false" start="2024-09-13" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="40" uid="95f5d30d3a414c2393d705e3a96ca11d" name="Supply Chain Sustainability" meeting="false" start="2024-09-19" duration="19" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+            <task id="39" uid="5b55d40f49144c42bccc90a97b5ede23" name="Assess suppliers' environmental impact" meeting="false" start="2024-09-19" duration="10" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="43" uid="1447d52ae14c40f7b7a613b290187c0e" name="Establish sustainability criteria for suppliers" meeting="false" start="2024-10-03" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="42" uid="9004bfecda63461f84c68c7262895fb2" name="Collaborate with suppliers for sustainable sourcing" meeting="false" start="2024-10-10" duration="4" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="44" uid="4958ef39cdb14e71844677682106ec7e" name="Employee Training and Engagement" meeting="false" start="2024-10-16" duration="10" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+            <task id="45" uid="9d6ac125bfca4d48a18d1509f974609d" name="Conduct sustainability training sessions for employees" meeting="false" start="2024-10-16" duration="4" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="48" uid="420c69cf54dc4e0786940a566b2627a5" name="Encourage employee initiatives for sustainability:" meeting="false" start="2024-10-21" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="47" uid="797bf9746ba24d6cbb28240b9fe69118" name="Promote green practices in the workplace" meeting="false" start="2024-10-25" duration="3" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="49" uid="c2edd673d62b456fa7a6b8e40ea85a9d" name="Monitoring and Reporting" meeting="false" start="2024-10-30" duration="16" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+            <task id="50" uid="b7ffaa031a384c1182e0cdd3ad5d2f7a" name="Define key performance indicators (KPIs)" meeting="false" start="2024-10-30" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="54" uid="2d02286a6a764065aabca12dff8896fd" name="Implement environmental monitoring systems" meeting="false" start="2024-11-05" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="53" uid="34f0573d173c423a93fdd6a86a7ec815" name="Provide regular sustainability reports to stakeholders" meeting="false" start="2024-11-11" duration="3" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="52" uid="89300ec1d20a400081bd54913f42b94d" name="Conduct periodic project audits and reviews" meeting="false" start="2024-11-14" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="55" uid="7be62c260ff6434bae9b6567d29ef157" name="Stakeholder Communication and Awareness" meeting="false" start="2024-11-20" duration="19" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+            <task id="56" uid="8da8cbad710741b0a7c94b905db0a0b8" name="Develop a communication strategy" meeting="false" start="2024-11-20" duration="6" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="60" uid="8d50785d1a164f91a44fa06894892122" name="Engage with customers to promote sustainable products" meeting="false" start="2024-11-27" duration="6" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="59" uid="3def28e283c84b4aad0eb44e94eb6e26" name="Inform investors about sustainability efforts" meeting="false" start="2024-12-05" duration="4" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="58" uid="22531bdaead74a4085aabb87ebc22f52" name="Raise public awareness about environmental impact and solutions:" meeting="false" start="2024-12-11" duration="4" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="62" uid="f072a1c883c54d62b7dbfaf33ebf96bb" name="Evaluation and Continuous Improvement" meeting="false" start="2024-12-17" duration="21" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+            <task id="61" uid="3a86defa07dd47b9bacd585b8163f88c" name="Evaluate project outcomes" meeting="false" start="2024-12-17" duration="11" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="65" uid="1902f37f41b34b90874f0ed00be5f893" name="Identify successful practices and lessons learned" meeting="false" start="2025-01-01" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+            <task id="64" uid="68c4f3ce57024036b963c78522cb9289" name="Incorporate feedback for ongoing improvements" meeting="false" start="2025-01-08" duration="5" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
